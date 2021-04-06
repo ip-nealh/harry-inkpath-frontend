@@ -35,11 +35,11 @@ export const Form: React.FC<Props> = ({ token }) => {
 
         switch (mode) {
             case 'convert':
-                return `http://localhost:3050/convert${string}&amount=${value}`;
+                return `http://2886795273-3000-elsy05.environments.katacoda.com/convert${string}&amount=${value}`;
             case 'historical':
-                return `http://localhost:3050/historical${string}&date=${moment(historicalDate).format('YYYY-MM-DD')}`;
+                return `http://2886795273-3000-elsy05.environments.katacoda.com/historical${string}&date=${moment(historicalDate).format('YYYY-MM-DD')}`;
             case 'range':
-                return `http://localhost:3050/range${string}&start=${moment(startDate).format('YYYY-MM-DD')}&end=${moment(endDate).format('YYYY-MM-DD')}`
+                return `http://2886795273-3000-elsy05.environments.katacoda.com/range${string}&start=${moment(startDate).format('YYYY-MM-DD')}&end=${moment(endDate).format('YYYY-MM-DD')}`
             default:
                 return ``;
         }
