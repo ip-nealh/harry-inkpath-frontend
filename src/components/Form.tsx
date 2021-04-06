@@ -88,7 +88,7 @@ export const Form: React.FC<Props> = ({ token }) => {
             </section>
             {
                 //conversion mode 
-                mode == 'convert' ?
+                mode === 'convert' ?
                     <section>
                         <h3>Enter a value</h3>
                         <input
@@ -99,7 +99,7 @@ export const Form: React.FC<Props> = ({ token }) => {
             }
             {
                 //historical mode 
-                mode == 'historical' ?
+                mode === 'historical' ?
                     <section>
                         <h3>Rate from a specific date</h3>
                         <div>
@@ -111,7 +111,7 @@ export const Form: React.FC<Props> = ({ token }) => {
             }
             {
                 //range mode
-                mode == 'range' ?
+                mode === 'range' ?
                     <section>
                         <h3>Rates between a range of dates</h3>
                         <div>
