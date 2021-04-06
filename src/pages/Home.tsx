@@ -25,7 +25,7 @@ export const Home: React.FC = () => {
             <h1>EUR Exchange Rates</h1>
             {
                 //when there is a single piece of data, display that data to the user
-                data && data.length == 1 && 
+                data && data.length === 1 && 
                 <div className='bubble'>
                     <h6>{data[0].symbol}</h6>
                     <h6>{data[0].rate}</h6>
