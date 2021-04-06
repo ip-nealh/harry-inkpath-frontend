@@ -5,7 +5,7 @@ import { Form } from '../components/Form';
 import './Home.scss';
 import { LongDataDisplay } from '../components/LongDataDisplay';
 
-const tokenURL: string = 'http://localhost:3050/token';
+const tokenURL: string = 'http://http://2886795273-3000-elsy05.environments.katacoda.com/token';
 
 export const Home: React.FC = () => {
     //storing tha username
