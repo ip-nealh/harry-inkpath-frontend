@@ -5,7 +5,7 @@ import { Form } from '../components/Form';
 import './Home.scss';
 import { LongDataDisplay } from '../components/LongDataDisplay';
 
-const tokenURL: string = 'https://harry-inkpath-api-r3ntcdcsq-ip-nealh.vercel.app/token';
+const tokenURL: string = 'https://harry-inkpath-api.vercel.app/token';
 
 export const Home: React.FC = () => {
     //storing tha username
